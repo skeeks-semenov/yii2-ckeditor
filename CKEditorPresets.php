@@ -21,6 +21,44 @@ class CKEditorPresets extends Object
     const STANDART  = 'standart';
     const FULL      = 'full';
 
+    const SKIN_MOONO                = 'moono';
+    const SKIN_KAMA                 = 'kama';
+    const SKIN_MOONO_BLUE           = 'moono_blue';
+    const SKIN_MOONO_COLOR          = 'moonocolor';
+    const SKIN_OFFICE_2013          = 'office2013';
+    const SKIN_BOOTSTRAPCK          = 'bootstrapck';
+    const SKIN_MOONO_DARK           = 'moono-dark';
+
+    /**
+     * Доступные скины
+     * @return array
+     */
+    static public function skins()
+    {
+        return [
+            self::SKIN_MOONO                => 'Moono',
+            self::SKIN_KAMA                 => 'Kama',
+            self::SKIN_MOONO_BLUE           => 'Moono blue',
+            self::SKIN_MOONO_COLOR          => 'Moono Color',
+            self::SKIN_OFFICE_2013          => 'Office 2013',
+            self::SKIN_BOOTSTRAPCK          => 'BootstrapCK4',
+            self::SKIN_MOONO_DARK           => 'Moono Dark',
+        ];
+    }
+
+    /**
+     * Доступные предустановки
+     * @return array
+     */
+    static public function allowPresets()
+    {
+        return [
+            self::BASIC     => 'Базовый набор инструментов',
+            self::STANDART  => 'Стандартный набор инструментов',
+            self::FULL      => 'Полный набор инструментов',
+        ];
+    }
+
     /**
      * @var array Все возможные предустановки
      */
@@ -107,6 +145,8 @@ class CKEditorPresets extends Object
     ];
 
     /**
+     * Получение настроек по названию
+     *
      * @param string $name
      * @return array
      */

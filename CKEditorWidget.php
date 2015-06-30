@@ -13,10 +13,10 @@ use yii\helpers\Json;
 use yii\widgets\InputWidget;
 
 /**
- * Class CKEditor
+ * Class CKEditorWidget
  * @package skeeks\yii2\ckeditor
  */
-class CKEditor extends InputWidget
+class CKEditorWidget extends InputWidget
 {
 	/**
 	 * @var string
