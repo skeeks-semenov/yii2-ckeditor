@@ -10,7 +10,7 @@ CKEDITOR.editorConfig = function( config ) {
     //Подключение экстра плагинов
     CKEDITOR.config.extraPlugins = 'ckwebspeech,youtube,pbckcode';
 
-    config.ckwebspeech = {'culture' : 'en-us',
+    config.ckwebspeech = {'culture' : 'ru-Ru',
          'commandvoice' : 'command',   //trigger voice commands
          'commands': [                 //command list
              {'newline': 'new line'},            //trigger to add a new line in CKEditor

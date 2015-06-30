@@ -168,6 +168,7 @@ class CKEditorPresets extends Object
                 ['name' => 'others', 'items' => ['-']],
                 ['name' => 'about', 'items' => ['About']],
                 ['name' => 'extra', 'items' => ['Youtube', 'pbckcode']],
+                ['name' => 'ckwebspeech', 'items' => ['webSpeechEnabled', 'webSpeechSettings']],
             ],
             'toolbarGroups' => [
                 ['name' => 'document', 'groups' => ['mode', 'document', 'doctools']],

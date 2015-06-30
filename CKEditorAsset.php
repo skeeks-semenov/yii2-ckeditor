@@ -18,7 +18,7 @@ class CKEditorAsset extends AssetBundle
 	public $sourcePath = '@vendor/skeeks/yii2-ckeditor/assets';
 
 	public $js = [
-		'ckeditor_full_4.4.7/ckeditor.js',
+		'ckeditor/ckeditor.js',
 	];
 
 	public $depends = [
