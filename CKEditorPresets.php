@@ -186,6 +186,7 @@ class CKEditorPresets extends Object
                 ['name' => 'others'],
                 ['name' => 'about'],
                 ['name' => 'extra'],
+                ['name' => 'ckwebspeech'],
             ],
         ],
 
