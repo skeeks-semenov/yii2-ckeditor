@@ -22,6 +22,13 @@ CKEDITOR.editorConfig = function( config ) {
 
     config.codeSnippetGeshi_url = '../lib/colorize.php';
 
+    /*config.codeSnippet_theme = 'school_book';
+
+    config.codeSnippet_languages = {
+        javascript: 'JavaScript',
+        php: 'PHP'
+    };*/
+
     config.codemirror = {
 
         // Whether or not you want Brackets to automatically close themselves

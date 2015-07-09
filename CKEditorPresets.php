@@ -167,7 +167,7 @@ class CKEditorPresets extends Object
                 ['name' => 'tools', 'items' => ['Maximize', 'ShowBlocks']],
                 ['name' => 'others', 'items' => ['-']],
                 ['name' => 'about', 'items' => ['About']],
-                ['name' => 'extra', 'items' => ['Youtube', 'pbckcode']],
+                ['name' => 'extra', 'items' => ['Youtube', 'pbckcode', 'CodeSnippet']],
                 ['name' => 'ckwebspeech', 'items' => ['webSpeechEnabled', 'webSpeechSettings']],
             ],
             'toolbarGroups' => [
@@ -188,8 +188,6 @@ class CKEditorPresets extends Object
                 ['name' => 'about'],
                 ['name' => 'extra'],
                 ['name' => 'ckwebspeech'],
-                ['name' => 'codesnippetgeshi'],
-                ['name' => 'codesnippet'],
             ],
         ],
 
