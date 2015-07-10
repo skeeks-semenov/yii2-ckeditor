@@ -7,8 +7,8 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	//config.uiColor = '#AADC6E';
-    //Подключение экстра плагинов
-    CKEDITOR.config.extraPlugins = 'ckwebspeech,youtube,pbckcode,doksoft_stat,sourcedialog,codemirror';
+    //Подключение экстра плагинов                    pbckcode | codesnippetgeshi
+    //CKEDITOR.config.extraPlugins = 'ckwebspeech,youtube,doksoft_stat,sourcedialog,codemirror,ajax,codesnippet,xml,widget,lineutils,dialog,dialogui';
 
     config.ckwebspeech = {'culture' : 'ru-Ru',
          'commandvoice' : 'command',   //trigger voice commands
@@ -19,6 +19,15 @@ CKEDITOR.editorConfig = function( config ) {
              {'redo': 'redo'}                    //trigger to redo changes in CKEditor
           ]
    };
+
+    //config.codeSnippetGeshi_url = '../lib/colorize.php';
+
+    //config.codeSnippet_theme = 'monokai_sublime';
+
+    /*config.codeSnippet_languages = {
+        javascript: 'JavaScript',
+        php: 'PHP'
+    };*/
 
     config.codemirror = {
 
