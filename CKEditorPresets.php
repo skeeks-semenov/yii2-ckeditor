@@ -70,6 +70,7 @@ class CKEditorPresets extends Object
         self::BASIC =>
         [
             'height' => 200,
+            'extraPlugins'    	=> 'ckwebspeech,sourcedialog,codemirror,ajax,codesnippet,xml,widget,lineutils,dialog,dialogui',
             'toolbarGroups' => [
                 ['name' => 'undo'],
                 ['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
@@ -85,6 +86,7 @@ class CKEditorPresets extends Object
         self::STANDART =>
         [
             'height' => 300,
+            'extraPlugins'    	=> 'ckwebspeech,sourcedialog,codemirror,ajax,codesnippet,xml,widget,lineutils,dialog,dialogui',
             'toolbarGroups' => [
                 ['name' => 'clipboard', 'groups' => ['mode','undo', 'selection', 'clipboard','doctools']],
                 ['name' => 'editing', 'groups' => ['tools', 'about']],
@@ -105,6 +107,7 @@ class CKEditorPresets extends Object
             'height'            => 400,
             //'skin'              => "moonocolor",
             'allowedContent'    => true,
+            'extraPlugins'    	=> 'ckwebspeech,sourcedialog,codemirror,ajax,codesnippet,xml,widget,lineutils,dialog,dialogui',
             //'extraPlugins'    	=> 'youtube',
             //'indentClasses'     => ["ul-grey", "ul-red", "text-red", "ul-content-red", "circle", "style-none", "decimal", "paragraph-portfolio-top", "ul-portfolio-top", "url-portfolio-top", "text-grey"],
             'toolbar' => [
@@ -149,7 +152,7 @@ class CKEditorPresets extends Object
             'height'            => 400,
             //'skin'              => "moonocolor",
             'allowedContent'    => true,
-            //'extraPlugins'    	=> 'youtube',
+            'extraPlugins'    	=> 'ckwebspeech,youtube,doksoft_stat,sourcedialog,codemirror,ajax,codesnippet,xml,widget,lineutils,dialog,dialogui',
             //'indentClasses'     => ["ul-grey", "ul-red", "text-red", "ul-content-red", "circle", "style-none", "decimal", "paragraph-portfolio-top", "ul-portfolio-top", "url-portfolio-top", "text-grey"],
             'toolbar' => [
                 ['name' => 'document', 'groups' => ['mode', 'document', 'doctools'], 'items' => ['Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates']],
@@ -167,7 +170,7 @@ class CKEditorPresets extends Object
                 ['name' => 'tools', 'items' => ['Maximize', 'ShowBlocks']],
                 ['name' => 'others', 'items' => ['-']],
                 ['name' => 'about', 'items' => ['About']],
-                ['name' => 'extra', 'items' => ['Youtube', 'pbckcode', 'CodeSnippet']],
+                ['name' => 'extra', 'items' => ['Youtube', /*'pbckcode',*/ 'CodeSnippet']],
                 ['name' => 'ckwebspeech', 'items' => ['webSpeechEnabled', 'webSpeechSettings']],
             ],
             'toolbarGroups' => [
