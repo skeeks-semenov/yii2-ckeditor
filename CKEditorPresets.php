@@ -17,6 +17,7 @@ use yii\helpers\ArrayHelper;
  */
 class CKEditorPresets extends Object
 {
+    const CLEAN     = 'clean';
     const BASIC     = 'basic';
     const STANDART  = 'standart';
     const FULL      = 'full';
@@ -66,6 +67,9 @@ class CKEditorPresets extends Object
      */
     static public $presets =
     [
+
+        self::CLEAN =>
+        [],
 
         self::BASIC =>
         [

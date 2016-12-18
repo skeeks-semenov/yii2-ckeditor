@@ -41,9 +41,39 @@ use skeeks\yii2\ckeditor\CKEditorWidget;
 use skeeks\yii2\ckeditor\CKEditorPresets;
 
 <?= $form->field($model, 'text')->widget(CKEditorWidget::className(), [
-		'options' => ['rows' => 6],
-		'preset' => CKEditorPresets::FULL
-	]) ?>
+	'preset' => CKEditorPresets::BASIC
+]) ?>
+```
+
+```
+<?= $form->field($model, 'text')->widget(CKEditorWidget::className(), [
+	'options' => ['rows' => 6],
+	'preset' => CKEditorPresets::FULL
+]) ?>
+```
+
+```
+<?= $form->field($model, 'description_short')->widget(
+	\skeeks\cms\widgets\formInputs\ckeditor\Ckeditor::className(),
+	[
+		'preset' => \skeeks\yii2\ckeditor\CKEditorPresets::CLEAN,
+		'clientOptions' =>
+		[
+			'height' => 200,
+			'extraPlugins'    	=> 'ckwebspeech,sourcedialog,codemirror,ajax,codesnippet,xml,widget,lineutils,dialog,dialogui',
+			'toolbarGroups' => [
+				['name' => 'undo'],
+				['name' => 'basicstyles', 'groups' => ['basicstyles', 'cleanup']],
+				['name' => 'colors'],
+				['name' => 'links', 'groups' => ['links']],
+				['name' => 'others','groups' => ['others', 'about']],
+			],
+			'removeButtons' => 'Subscript,Superscript,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe',
+			'removePlugins' => 'elementspath',
+			'resize_enabled' => true
+		]
+	]
+); ?>
 ```
 
 Further Information
