@@ -80,6 +80,9 @@ Further Information
 -------------------
 Please, check the [CKEditor plugin site](http://www.ckeditor.com) documentation for further information about its configuration options.
 
-> [![skeeks!](https://gravatar.com/userimage/74431132/13d04d83218593564422770b616e5622.jpg)](http://skeeks.com)  
-<i>SkeekS CMS (Yii2) — быстро, просто, эффективно!</i>  
-[skeeks.com](http://skeeks.com) | [cms.skeeks.com](http://cms.skeeks.com) | [marketplace.cms.skeeks.com](http://marketplace.cms.skeeks.com)
+___
+
+> [![skeeks!](https://skeeks.com/img/logo/logo-no-title-80px.png)](https://skeeks.com)  
+<i>SkeekS CMS (Yii2) — fast, simple, effective!</i>  
+[skeeks.com](https://skeeks.com) | [cms.skeeks.com](https://cms.skeeks.com)
+
