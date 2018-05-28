@@ -1,6 +1,11 @@
 Процесс разработки
 ==============
 
+1.1.1
+-----------------
+  * Fixed notice
+  * Change source dir to src/
+  
 1.1.0
 -----------------
   * Added clean preset
