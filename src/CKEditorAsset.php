@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class CKEditorAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/skeeks/yii2-ckeditor/assets';
+    public $sourcePath = '@skeeks/yii2/ckeditor/assets';
 
     public $js = [
         'ckeditor/ckeditor.js',
