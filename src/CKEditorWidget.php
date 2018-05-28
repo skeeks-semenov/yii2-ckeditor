@@ -46,6 +46,8 @@ class CKEditorWidget extends InputWidget
      */
     protected function _initOptions()
     {
+        $options = [];
+
         if ($this->preset) {
             $options = CKEditorPresets::getPresets($this->preset);
         }
