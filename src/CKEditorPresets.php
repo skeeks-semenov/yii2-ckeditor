@@ -8,13 +8,13 @@
 
 namespace skeeks\yii2\ckeditor;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;
 
 /**
  * @author Semenov Alexander <semenov@skeeks.com>
  */
-class CKEditorPresets extends Object
+class CKEditorPresets extends BaseObject
 {
     const CLEAN = 'clean';
     const BASIC = 'basic';
