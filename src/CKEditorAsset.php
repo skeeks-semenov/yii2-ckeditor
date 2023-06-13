@@ -8,6 +8,7 @@
 
 namespace skeeks\yii2\ckeditor;
 
+use skeeks\sx\assets\Core;
 use yii\web\AssetBundle;
 
 /**
@@ -24,5 +25,6 @@ class CKEditorAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\web\JqueryAsset',
+        Core::class
     ];
 } 

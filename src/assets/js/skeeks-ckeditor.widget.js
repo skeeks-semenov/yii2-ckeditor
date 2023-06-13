@@ -5,13 +5,11 @@
  * @date 27.10.2014
  * @since 1.0.0
  */
-if (typeof skeeks == "undefined" || !skeeks) {
-    var skeeks = {};
-}
 
-skeeks.ckEditorWidget = (function ($) {
+(function(sx, $, _)
+{
+    sx.classes.ckEditorWidget = sx.classes.Component.extend({
 
-    var pub = {
         registerOnChangeHandler: function (id) {
             CKEDITOR && CKEDITOR.instances[id] && CKEDITOR.instances[id].on('change', function () {
                 CKEDITOR.instances[id].updateElement();
@@ -29,6 +27,10 @@ skeeks.ckEditorWidget = (function ($) {
                 }
             });
         }
-    };
-    return pub;
-})(jQuery);
+
+    });
+
+    sx.ckEditorWidget = new sx.classes.ckEditorWidget();
+
+})(sx, sx.$, sx._);
+

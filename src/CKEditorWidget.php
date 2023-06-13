@@ -93,10 +93,10 @@ class CKEditorWidget extends InputWidget
             : '{}';
 
         $js[] = "CKEDITOR.replace('$id', $options);";
-        $js[] = "skeeks.ckEditorWidget.registerOnChangeHandler('$id');";
+        $js[] = "sx.ckEditorWidget.registerOnChangeHandler('$id');";
 
         if (isset($this->clientOptions['filebrowserUploadUrl'])) {
-            $js[] = "skeeks.ckEditorWidget.registerCsrfImageUploadHandler();";
+            $js[] = "sx.ckEditorWidget.registerCsrfImageUploadHandler();";
         }
 
         $view->registerJs(implode("\n", $js));
